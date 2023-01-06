@@ -14,7 +14,7 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 0px 220px 30px 200px;
+  margin: 0px 210px 30px 200px;
   position: relative;
   padding-top: 30px;
 }
@@ -25,6 +25,7 @@
 }
 .nav-manu li {
   padding-right: 30px;
+  font-size: 25px;
 }
 .Hire-button {
   background-color: rgba(253, 110, 10, 1);
@@ -100,7 +101,97 @@
   color: rgba(253, 110, 10, 1);
   font-weight: 700;
   height: 45px;
-  width: 120px;
+  width: 110px;
   border: 2px solid rgba(253, 110, 10, 1);
   border-radius: 5px;
 }
+/* main style start */
+main {
+  max-width: 1140;
+  margin: 0 auto;
+}
+/* ========== about section style ======== */
+.about {
+  align-items: center;
+  background-color: #fff8f3;
+  text-align: center;
+  border-radius: 10px;
+}
+.about-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.abour-description {
+  font-weight: 400;
+  font-size: 18px;
+}
+.personal-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.info-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+/* ======= what I do section style====== */
+/* .what-i-do {
+  padding: 0px 220px;
+} */
+.what-i-do-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgba(24, 24, 24, 1);
+}
+.what-i-do-description {
+  text-align: center;
+  margin: 30px 345px;
+  color: rgba(117, 117, 117, 1);
+}
+/* ========= skills section style ========*/
+.skill-parent {
+  align-self: center;
+  position: absolute;
+  /* margin: 50px 230px 30px 230px; */
+  /* width: 1140px;
+  height: 550px; */
+  background-color: blue;
+  border: 5px solid saddlebrowns;
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  background-color: #181818;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skill-logo {
+  margin: 30px;
+}
+.skill-title {
+  margin: 0px 30px 0px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+}
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  width: 204px;
+  height: 243px;
+  margin: 20px 30px 30px 30px;
+  color: #757575;
+}
+/* main style end */
